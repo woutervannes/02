@@ -105,8 +105,8 @@ a:active{
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
-#img1, #img2, #img3{
-	height: 100%;
+#img1, #img2, #img3, #img4{
+	height: auto;
 	float: left;
 	display: none;
 	overflow: scroll;
@@ -175,13 +175,13 @@ h2:after{
 	width: 80%;
 	margin-left: 7%;
 	padding-top: 200px;
-	height: 100%;
+	height: intrinsic;
 }
 
    
 #col-2, #col-3, #col-4, #col-5 {
 	width: 80%;
-	height: 100%;
+	height: intrinsic;
 	margin-left: 7%;
 	
 }
@@ -201,13 +201,13 @@ h2:after{
 	width: 80%;
 	margin-left: 7%;
 	padding-top: 200px;
-	overflow: visible;
+	height: intrinsic;
 }
    
 #col-2, #col-3, #col-4, #col-5 {
 	width: 80%;
 	margin-left: 7%;
-	height: 100%;
+	height: intrinsic;
 }
 
 #col-2, #col-3, #col-4{
