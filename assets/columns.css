@@ -1,9 +1,4 @@
 @font-face {
-    font-family: ocrf;
-    src: url(font/OCRF/FF OCR F);
-}
-
-@font-face {
     font-family: univers;
     src: url(font/UniversLTStd.otf);
 }
