@@ -201,7 +201,7 @@ h2:after{
 	width: 80%;
 	margin-left: 7%;
 	padding-top: 200px;
-	height: 100%;
+	overflow: visible;
 }
    
 #col-2, #col-3, #col-4, #col-5 {
