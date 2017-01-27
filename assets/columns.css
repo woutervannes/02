@@ -105,7 +105,7 @@ a:active{
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
-#img1, #img2, #img3, #img4{
+#img1, #img2, #img3, #img4, #img5{
 	height: auto;
 	float: left;
 	display: none;
@@ -158,8 +158,9 @@ h2:after{
   
     
     
-#img1, #img2, #img3 {
+#img1, #img2, #img3, #img4, #img5 {
     position: fixed;
+    top: 20px;
 }
   
    
@@ -189,6 +190,8 @@ h2:after{
 #col-2, #col-3, #col-4{
 	visibility: visible;
 }
+
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -212,5 +215,10 @@ h2:after{
 
 #col-2, #col-3, #col-4{
 	visibility: visible;
+}
+
+#img1, #img2, #img3, #img4, #img5 {
+    position: fixed;
+    top: 20px;
 }
 }
