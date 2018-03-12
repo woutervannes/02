@@ -119,6 +119,7 @@ a:active{
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
+/*
 #img1, #img2, #img3, #img4, #img5, #img6, #img7{
 	height: auto;
 	float: left;
@@ -129,6 +130,7 @@ a:active{
 
 }
 
+*/
 
 h1 {
 	font-size: 12px;
@@ -196,10 +198,12 @@ h2:after{
   
     
     
-#img1, #img2, #img3, #img4, #img5, #img6, #img7 {
+/*
+    #img1, #img2, #img3, #img4, #img5, #img6, #img7 {
     position: fixed;
     top: 40px;
 }
+    */
   
    
 #columns {
@@ -220,13 +224,13 @@ h2:after{
    
 #col-2, #col-3, #col-4, #col-5 {
 	width: 80%;
-	height: intrinsic;
+	height: 400px;
 	margin-left: 7%;
 	
 }
 
 #col-2, #col-3, #col-4{
-	visibility: visible;
+	display: inline;
 }
 
 
