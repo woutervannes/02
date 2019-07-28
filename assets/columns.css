@@ -42,7 +42,7 @@ a:active{
 	float: none;
 	position: absolute;
 	width: 200px;
-	height: 150px;
+	height: 0px;
 	margin-left: calc(50% - (200px / 2));
 	background: url(images/6tag-060516-174733-1920x1080-52-1920x1080-78.jpg);
 	background-size: cover;
@@ -54,14 +54,14 @@ a:active{
 #nav {
 	width:100%;
 	position: absolute;
-	top: 150px;
+	top: 10px;
 }
 
 #nav1, #nav2, #nav3, #nav4, #nav5{
 	width: calc((100% / 5) - 20px);
 	float: left;
 	padding: 10px;
-	padding-top: 20px;
+	padding-top: 0px;
 	text-align: center;
 }
 
@@ -73,21 +73,21 @@ a:active{
 }
 
 #columns {
-	bottom: 0;
-	height: 80%;
+	top: 35px;
+	height: 100%;
 	float: left;
 	position: absolute;
 	
 }
 
-#col-1{
+/*#col-1{
 	width: calc((100% / 5) - 20px);
 	height: calc(100% - 20px);
 	float: left;
 	overflow: scroll;
 	padding: 10px;
-	padding-top: 60px;
-}
+	padding-top: 0px;
+}*/
 
 #col-5{
 	width: calc((100% / 5) - 20px);
@@ -95,12 +95,12 @@ a:active{
 	float: right;
 	overflow: scroll;
 	padding: 10px;
-	padding-top: 60px;
+	padding-top: 0px;
 }
 
-#col-2, #col-3, #col-4{
+#col-1, #col-2, #col-3, #col-4{
 	display: none;
-	width: calc(((100% / 5) * 3) - 20px);
+	width: calc(((100% / 5) * 4) - 20px);
 	height: calc(100% - 10px);
 	float: left;
 	overflow: hidden;
