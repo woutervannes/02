@@ -3,6 +3,16 @@
     src: url(font/UniversLTStd.otf);
 }
 
+@font-face {
+    font-family: 'tof-reg';
+    src: url(font/tof/The_Oblique_Function_Regular.otf);
+}
+
+@font-face {
+    font-family: 'tof-dis';
+    src: url(font/tof/The_Oblique_Function_Display.otf);
+}
+
 html {
        overflow-y: scroll;
 }
@@ -264,4 +274,19 @@ h2:after{
     position: fixed;
     top: 40px;
 }
+}
+
+#tof-reg-editable1 {
+    font-family: 'tof-reg', times;
+    font-size: 60pt;
+}
+
+#tof-reg-editable2 {
+    font-family: 'tof-reg', times;
+    font-size: 13pt;
+}
+
+#tof-dis-editable {
+    font-family: 'tof-dis', times;
+    font-size: 60pt;
 }

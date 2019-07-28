@@ -3,6 +3,12 @@
     src: url(font/UniversLTStd.otf);
 }
 
+@font-face {
+    font-family: tof-reg;
+    src: url(font/tof/The Oblique Function Regular.otf);
+}
+
+
 body {
 	font-family: univers, helvetica, sans-serif;
 	font-size: 11px;
@@ -31,3 +37,4 @@ body {
 	width: 370px;
 	margin-right: 25px;
 }
+
