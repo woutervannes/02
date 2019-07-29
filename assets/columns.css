@@ -80,6 +80,7 @@ a:active{
 	width:100%;
 	position: absolute;
 	height: 100%;
+    overflow: hidden;
 }
 
 #columns {
@@ -184,7 +185,7 @@ h2:after{
 	padding-top: 60px;
 }
 
-#graphiccontent1, #graphiccontent2, #graphiccontent3, #typecontent1, #typecontent2 {
+#graphiccontent1, #graphiccontent2, #graphiccontent3, #graphiccontent4, #graphiccontent5, #typecontent1, #typecontent2, #typecontent3 {
 	display: none;
 }
 
