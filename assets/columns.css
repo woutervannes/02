@@ -96,7 +96,7 @@ a:active{
 	width: calc((100% / 5) - 20px);
 	float: left;
 	padding: 10px;
-	padding-top: 0px;
+	padding-top: 5px;
 	text-align: center;
 }
 
