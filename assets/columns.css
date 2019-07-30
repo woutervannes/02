@@ -143,6 +143,10 @@ a:active{
 	padding: 10px;
 }
 
+#col-1{
+    display: inline;
+}
+
 ::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 1px;
@@ -301,6 +305,11 @@ h2:after{
     top: 40px;
 }
 }
+    
+ul {
+    list-style-type:circle;
+    margin-left: -30px;
+}
 
 #tof-reg-editable1 {
     font-family: 'tof-reg', univers;
@@ -321,7 +330,7 @@ h2:after{
     font-family: 'MTsharp', univers;
     font-size: 100px;
     line-height: 75px;
-    margin-top: -25px;
+    margin-top: 0px;
     
 }
 
@@ -329,7 +338,8 @@ h2:after{
     font-family: 'MTconnomoregrids', univers;
     font-size: 100px;
     line-height: 75px;
-    margin-top: -25px;
+    margin-top: -20px;
+    text-transform: lowercase;
 }
 
 #MTcongoth-editable {
