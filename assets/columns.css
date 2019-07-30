@@ -13,6 +13,31 @@
     src: url(font/tof/The_Oblique_Function_Display.otf);
 }
 
+@font-face {
+    font-family: 'MTsharp';
+    src: url(font/MT/mt-sharp-text.otf);
+}
+
+@font-face {
+    font-family: 'MTcongoth';
+    src: url(font/MT/mt-condensed-gothic-sans.otf);
+}
+
+@font-face {
+    font-family: 'MTnomoregrids';
+    src: url(font/MT/mt-no-more-grids-regular.otf);
+}
+
+@font-face {
+    font-family: 'MTconnomoregrids';
+    src: url(font/MT/mt-no-more-grids-condensed.otf);
+}
+
+@font-face {
+    font-family: 'MTthreestripes';
+    src: url(font/MT/mt-three-stripes.otf);
+}
+
 html {
        overflow-y: scroll;
 }
@@ -173,7 +198,7 @@ h2:after{
 	float: left;
 	overflow: scroll;
 	padding: 10px;
-	padding-top: 60px;
+	padding-top: 0px;
 }
 
 .content {
@@ -182,7 +207,7 @@ h2:after{
 	float: right;
 	overflow: scroll;
 	padding: 10px;
-	padding-top: 60px;
+	padding-top: 0px;
 }
 
 #graphiccontent1, #graphiccontent2, #graphiccontent3, #graphiccontent4, #graphiccontent5, #typecontent1, #typecontent2, #typecontent3 {
@@ -257,7 +282,7 @@ h2:after{
 #col-1 {
 	width: 80%;
 	margin-left: 7%;
-	padding-top: 200px;
+	padding-top: 0px;
 	height: intrinsic;
 }
    
@@ -278,16 +303,47 @@ h2:after{
 }
 
 #tof-reg-editable1 {
-    font-family: 'tof-reg', times;
+    font-family: 'tof-reg', univers;
     font-size: 60pt;
 }
 
 #tof-reg-editable2 {
-    font-family: 'tof-reg', times;
+    font-family: 'tof-reg', univers;
     font-size: 13pt;
 }
 
 #tof-dis-editable {
-    font-family: 'tof-dis', times;
+    font-family: 'tof-dis', univers;
     font-size: 60pt;
+}
+
+#MTsharp-editable {
+    font-family: 'MTsharp', univers;
+    font-size: 100px;
+    line-height: 75px;
+    margin-top: -25px;
+    
+}
+
+#MTconnomoregrids-editable {
+    font-family: 'MTconnomoregrids', univers;
+    font-size: 100px;
+    line-height: 75px;
+    margin-top: -25px;
+}
+
+#MTcongoth-editable {
+    font-family: 'MTcongoth', univers;
+    font-size: 100px;
+    line-height: 75px;
+    margin-top: -25px;
+    
+}
+
+#MTthreestripes-editable {
+    font-family: 'MTthreestripes', univers;
+    font-size: 100px;
+    line-height: 75px;
+    margin-top: -25px;
+    text-transform: lowercase;
 }
