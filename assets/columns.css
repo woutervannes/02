@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: 'MTsharp';
-    src: url(font/MT/mt-sharp-text.otf);
+    src: url(font/MT/MTSharp-text.otf);
 }
 
 @font-face {
@@ -25,17 +25,17 @@
 
 @font-face {
     font-family: 'MTnomoregrids';
-    src: url(font/MT/mt-no-more-grids-regular.otf);
+    src: url(font/MT/MTnomoregrids-condensed.otf);
 }
 
 @font-face {
     font-family: 'MTconnomoregrids';
-    src: url(font/MT/mt-no-more-grids-condensed.otf);
+    src: url(font/MT/MTnomoregrids-condensed.otf);
 }
 
 @font-face {
     font-family: 'MTthreestripes';
-    src: url(font/MT/mt-three-stripes.otf);
+    src: url(font/MT/MTThreeStripes-regular.otf);
 }
 
 html {
@@ -134,7 +134,7 @@ a:active{
 	padding-top: 0px;
 }
 
-#col-1, #col-2, #col-3, #col-4{
+#col-1, #col-2, #col-3, #col-4, #wineanddine{
 	display: none;
 	width: calc(((100% / 5) * 4) - 20px);
 	height: calc(100% - 10px);
@@ -145,6 +145,7 @@ a:active{
 
 #col-1{
     display: inline;
+    overflow: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -196,6 +197,10 @@ h2:after{
 	display: inline-block;
 }
 
+.text{
+    width: 550px;
+}
+
 .list {
 	width: calc((100% / 3) - 20px);
 	height: inherit;
@@ -214,7 +219,7 @@ h2:after{
 	padding-top: 0px;
 }
 
-#graphiccontent1, #graphiccontent2, #graphiccontent3, #graphiccontent4, #graphiccontent5, #typecontent1, #typecontent2, #typecontent3 {
+#graphiccontent1, #graphiccontent2, #graphiccontent3, #graphiccontent4, #graphiccontent5, #typecontent1, #typecontent2, #typecontent3, #othercontent1, #othercontent2, #othercontent3, #othercontent4, #othercontent5, #wineanddine {
 	display: none;
 }
 
@@ -263,7 +268,7 @@ h2:after{
 }
 
    
-#col-2, #col-3, #col-4, #col-5 {
+#col-2, #col-3, #col-4, #col-5, #wineanddine {
 	width: 80%;
 	height: 400px;
 	margin-left: 7%;
@@ -355,5 +360,40 @@ ul {
     font-size: 100px;
     
     margin-top: 0px;
+    text-transform: lowercase;
+}
+
+
+/*landingpage*/
+
+#MTsharp-editable-land {
+    font-family: 'MTsharp', univers;
+    font-size: 100px;
+    line-height: 75px;
+    margin-top: -70px;
+    
+}
+
+#MTconnomoregrids-editable-land {
+    font-family: 'MTconnomoregrids', univers;
+    font-size: 100px;
+    line-height: 30px;
+    margin-top: -60px;
+    text-transform: lowercase;
+}
+
+#MTcongoth-editable-land {
+    font-family: 'MTcongoth', univers;
+    font-size: 100px;
+    
+    margin-top: -15px;
+    
+}
+
+#MTthreestripes-editable-land {
+    font-family: 'MTthreestripes', univers;
+    font-size: 100px;
+    
+    margin-top: -80px;
     text-transform: lowercase;
 }
