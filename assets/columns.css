@@ -59,6 +59,7 @@ a {
 	color: black;
 	text-decoration: none;
 	text-align: center;
+    cursor: pointer;
 }
 
 a:visited {
@@ -282,6 +283,7 @@ h2:after{
 
 }
 
+
 @media only screen and (max-width: 640px) {
     /* For mobile phones: */
 	
@@ -299,11 +301,12 @@ h2:after{
 	width: 80%;
 	margin-left: 7%;
 	height: intrinsic;
+    display: none;
 }
 
-#col-2, #col-3, #col-4{
+/*#col-2, #col-3, #col-4{
 	visibility: visible;
-}
+}*/
 
 #img1, #img2, #img3, #img4, #img5, #img6, #img7 {
     position: fixed;

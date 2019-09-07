@@ -90,7 +90,7 @@
 					<div class="content">
 					<div id="typecontent1">
                         
-                        <img src="assets/images/_molotype/001-4.gif" ></br>
+                        <img src="assets/images/_molotype/001-4.gif" data-src="assets/images/_molotype/001-4.gif" ></br>
                         
                         MT sharp
                         <p id="MTsharp-editable" contenteditable="true" spellcheck="false">
@@ -118,9 +118,9 @@
 
                         <p class="text">MOLOTYPE is a fictional type foundry that consists of typefaces that all originate from the same writing tool, a 15mm MOLOTOW 611EM Empty Pump Marker. It is the start of a research on how (writing) tools could be appropriated to be used to make work it isn't intended for, specifically in the field of type design and calligraphy. With MOLOTYPE I used a street marker as a tool to make typefaces. As such I also presented it in a small space on campus that is filled with graffiti</p></br></br>
 
-                        <img src="assets/images/_molotype/IMG_0355.jpg" >
-						<img src="assets/images/_molotype/IMG_0357.jpg" >
-						<img src="assets/images/_molotype/IMG_0358.jpg" ></br></br>
+                        <img src="assets/images/_molotype/IMG_0355.jpg" data-src="assets/images/_molotype/IMG_0355.jpg"  >
+						<img src="assets/images/_molotype/IMG_0357.jpg" data-src="assets/images/_molotype/IMG_0357.jpg" >
+						<img src="assets/images/_molotype/IMG_0358.jpg" data-src="assets/images/_molotype/IMG_0358.jpg" ></br></br>
 
                         <p class="text">MOLOTYPE consists out of four typefaces. 'MT no more grids', the smallest possible typeface possible with the Molotow marker. 'MT Three Stripes', a typographic play with three horizontal stripes. 'MT Sharp', which utilizes the speed of upstrokes and the slowness of downstrokes to construct a high and sharp contrast. Finally there is 'MT Condensed Gothic', a very condensed face where the slope of the marker is visible through its contrast and stroke endings. To show these four typefaces there are a couple specimens that work together as a whole by displaying the typefaces at the same size as the marker would draw them. These specimens are three A0 posters, a paper (375mm x 520mm), a small A5 booklet and a postcard. Finally I also made the procesbook to show some sketches and provide some visual background information to the project.</p>
 						</br></br>
@@ -611,6 +611,55 @@ Dacht de werkman terwijl hij de straat verder openbrak.
 						
                         
 					</script>
+
+
+                    <!--lazyload-->
+
+                    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js">
+
+                    <script>
+                         (function() {
+                            function logElementEvent(eventName, element) {
+                                console.log(
+                                    Date.now(),
+                                    eventName,
+                                    element.getAttribute("data-src")
+                                );
+                            }
+
+                            var callback_enter = function(element) {
+                                logElementEvent("🔑 ENTERED", element);
+                            };
+                            var callback_exit = function(element) {
+                                logElementEvent("🚪 EXITED", element);
+                            };
+                            var callback_reveal = function(element) {
+                                logElementEvent("👁️ REVEALED", element);
+                            };
+                            var callback_loaded = function(element) {
+                                logElementEvent("👍 LOADED", element);
+                            };
+                            var callback_error = function(element) {
+                                logElementEvent("💀 ERROR", element);
+                                element.src =
+                                    "https://via.placeholder.com/440x560/?text=Error+Placeholder";
+                            };
+                            var callback_finish = function() {
+                                logElementEvent("✔️ FINISHED", document.documentElement);
+                            };
+
+                            var ll = new LazyLoad({
+                                elements_selector: ".lazy",
+                                // Assign the callbacks defined above
+                                callback_enter: callback_enter,
+                                callback_exit: callback_exit,
+                                callback_reveal: callback_reveal,
+                                callback_loaded: callback_loaded,
+                                callback_error: callback_error,
+                                callback_finish: callback_finish
+                            });
+                        })();
+                    </script>
 					
 					
 				
