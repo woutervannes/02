@@ -322,16 +322,19 @@ ul {
 #tof-reg-editable1 {
     font-family: 'tof-reg', univers;
     font-size: 60pt;
+    outline: 0px solid transparent;
 }
 
 #tof-reg-editable2 {
     font-family: 'tof-reg', univers;
     font-size: 13pt;
+    outline: 0px solid transparent;
 }
 
 #tof-dis-editable {
     font-family: 'tof-dis', univers;
     font-size: 60pt;
+    outline: 0px solid transparent;
 }
 
 #MTsharp-editable {
@@ -339,6 +342,7 @@ ul {
     font-size: 100px;
     line-height: 75px;
     margin-top: 0px;
+    outline: 0px solid transparent;
     
 }
 
@@ -348,6 +352,7 @@ ul {
     line-height: 75px;
     margin-top: -20px;
     text-transform: lowercase;
+    outline: 0px solid transparent;
 }
 
 #MTcongoth-editable {
@@ -355,6 +360,7 @@ ul {
     font-size: 100px;
     
     margin-top: 25px;
+    outline: 0px solid transparent;
     
 }
 
@@ -364,6 +370,7 @@ ul {
     
     margin-top: 0px;
     text-transform: lowercase;
+    outline: 0px solid transparent;
 }
 
 
@@ -374,6 +381,7 @@ ul {
     font-size: 100px;
     line-height: 75px;
     margin-top: 0px;
+    outline: 0px solid transparent;
     
 }
 
@@ -383,6 +391,7 @@ ul {
     line-height: 30px;
     margin-top: -60px;
     text-transform: lowercase;
+    outline: 0px solid transparent;
 }
 
 #MTcongoth-editable-land {
@@ -390,6 +399,7 @@ ul {
     font-size: 100px;
     
     margin-top: -15px;
+    outline: 0px solid transparent;
     
 }
 
@@ -399,4 +409,5 @@ ul {
     
     margin-top: -80px;
     text-transform: lowercase;
+    outline: 0px solid transparent;
 }
