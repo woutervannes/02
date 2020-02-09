@@ -224,6 +224,10 @@ h2:after{
 	display: none;
 }
 
+#graphiccontent1, #typecontent1, #othercontent1 {
+	display: inline;
+}
+
 @media only screen and (max-width: 950px) {
     /* For mobile phones: */
 	
