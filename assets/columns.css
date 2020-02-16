@@ -47,6 +47,8 @@ body {
 	padding:0;
 	height: 100%;
 	width: 100%;
+    max-width: 2000px;
+    margin: auto;
 	font-family: univers, times, sans-serif;
 	font-size: 12px;
 }
@@ -104,6 +106,8 @@ a:active{
 
 #container {
 	width:100%;
+    max-width: 2000px;
+    margin: auto;
 	position: absolute;
 	height: 100%;
     overflow: hidden;
