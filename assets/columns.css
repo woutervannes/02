@@ -1,11 +1,11 @@
 @font-face {
     font-family: univers;
-    src: url(font/UniversLTStd.otf);
+    src: url("/font/UniversLTStd.otf");
 }
 
 @font-face {
     font-family: 'tof-reg';
-    src: url(font/tof/ObliqueFunctionVarVF.ttf);
+    src: url("/font/tof/ObliqueFunctionVarVF.ttf") format("truetype-variations");
 }
 
 @font-face {
