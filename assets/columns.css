@@ -1,11 +1,11 @@
 @font-face {
     font-family: univers;
-    src: url("/font/UniversLTStd.otf");
+    src: url(font/UniversLTStd.otf);
 }
 
 @font-face {
     font-family: 'tof-reg';
-    src: url("/font/tof/ObliqueFunctionVarVF.ttf") format("truetype-variations");
+    src: url(font/tof/ObliqueFunctionVarVF.ttf) format("truetype-variations");
 }
 
 @font-face {
@@ -329,20 +329,36 @@ ul {
 
 #tof-reg-editable1 {
     font-family: 'tof-reg', univers;
+    font-variation-settings: "slnt" 50, "wght" 0;
     font-size: 60pt;
-    outline: 0px solid transparent;
+    transition: font-variation-settings 0.7s ease;
+}
+
+#tof-reg-editable1:hover {
+  font-variation-settings: "slnt" 0, "wght" 50;
 }
 
 #tof-reg-editable2 {
     font-family: 'tof-reg', univers;
+    font-variation-settings: "slnt" 50, "wght" 0;
     font-size: 13pt;
-    outline: 0px solid transparent;
+    transition: font-variation-settings 0.7s ease;
+}
+
+#tof-reg-editable2:hover {
+  font-variation-settings: "slnt" 0, "wght" 20;
 }
 
 #tof-dis-editable {
-    font-family: 'tof-dis', univers;
+    font-family: 'tof-reg', univers;
+    font-variation-settings: "slnt" 0, "wght" 15;
     font-size: 60pt;
     outline: 0px solid transparent;
+    transition: font-variation-settings 0.7s ease;
+}
+
+#tof-dis-editable:hover {
+  font-variation-settings: "slnt" 50, "wght" 50;
 }
 
 #MTsharp-editable {
