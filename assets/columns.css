@@ -9,8 +9,13 @@
 }
 
 @font-face {
-    font-family: 'tof-dis';
-    src: url(font/tof/The_Oblique_Function_Display.otf);
+    font-family: 'eva';
+    src: url(font/Eva-Regular_13.otf);
+}
+
+@font-face {
+    font-family: 'textecourant';
+    src: url(font/TexteCourante-formalized.otf);
 }
 
 @font-face {
@@ -224,12 +229,12 @@ h2:after{
 	padding-top: 0px;
 }
 
-#graphiccontent1, #graphiccontent2, #graphiccontent3, #graphiccontent4, #graphiccontent5, #typecontent1, #typecontent2, #typecontent3, #othercontent1, #othercontent2, #othercontent3, #othercontent4, #othercontent5, #wineanddine {
+#graphiccontent1, #graphiccontent2, #graphiccontent3, #graphiccontent4, #graphiccontent5, #typecontent1, #typecontent2, #typecontent3, #typecontent4, #typecontent5, #othercontent1, #othercontent2, #othercontent3, #othercontent4, #othercontent5, #wineanddine {
 	display: none;
 }
 
 #graphiccontent1, #typecontent1, #othercontent1 {
-	display: inline;
+	display: none;
 }
 
 @media only screen and (max-width: 950px) {
@@ -400,6 +405,28 @@ ul {
     outline: 0px solid transparent;
 }
 
+#eva-editable {
+    font-family: 'eva', univers;
+    font-size: 12pt;
+    margin-top: 0px;
+    -webkit-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    -moz-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    -ms-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+
+}
+
+#textecourant-editable {
+    font-family: 'textecourant', univers;
+    font-size: 100pt;
+    margin-top: 0px;
+}
+
+#textecourant-editable-small {
+    font-family: 'textecourant', univers;
+    font-size: 24pt;
+    margin-top: 0px;
+}
 
 /*landingpage*/
 
