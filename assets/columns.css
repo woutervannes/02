@@ -332,6 +332,7 @@ ul {
     font-variation-settings: "slnt" 50, "wght" 0;
     font-size: 60pt;
     transition: font-variation-settings 0.7s ease;
+    text-transform: lowercase;
 }
 
 #tof-reg-editable1:hover {
@@ -343,6 +344,7 @@ ul {
     font-variation-settings: "slnt" 50, "wght" 0;
     font-size: 13pt;
     transition: font-variation-settings 0.7s ease;
+    text-transform: lowercase;
 }
 
 #tof-reg-editable2:hover {
@@ -355,6 +357,7 @@ ul {
     font-size: 60pt;
     outline: 0px solid transparent;
     transition: font-variation-settings 0.7s ease;
+    text-transform: lowercase;
 }
 
 #tof-dis-editable:hover {
