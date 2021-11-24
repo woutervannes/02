@@ -229,7 +229,7 @@ h2:after{
 	padding-top: 0px;
 }
 
-#graphiccontent1, #graphiccontent2, #graphiccontent3, #graphiccontent4, #graphiccontent5, #typecontent1, #typecontent2, #typecontent3, #typecontent4, #typecontent5, #othercontent1, #othercontent2, #othercontent3, #othercontent4, #othercontent5, #wineanddine {
+#graphiccontent0, #graphiccontent1, #graphiccontent2, #graphiccontent3, #graphiccontent4, #graphiccontent5, #typecontent1, #typecontent2, #typecontent3, #typecontent4, #typecontent5, #othercontent1, #othercontent2, #othercontent3, #othercontent4, #othercontent5, #wineanddine {
 	display: none;
 }
 
@@ -346,19 +346,19 @@ ul {
 
 #tof-reg-editable2 {
     font-family: 'tof-reg', univers;
-    font-variation-settings: "slnt" 50, "wght" 0;
+    font-variation-settings: "slnt" 0, "wght" 25;
     font-size: 13pt;
     transition: font-variation-settings 0.7s ease;
     text-transform: lowercase;
 }
 
 #tof-reg-editable2:hover {
-  font-variation-settings: "slnt" 0, "wght" 20;
+  font-variation-settings: "slnt" 50, "wght" 0;
 }
 
 #tof-dis-editable {
     font-family: 'tof-reg', univers;
-    font-variation-settings: "slnt" 0, "wght" 15;
+    font-variation-settings: "slnt" 50, "wght" 0;
     font-size: 60pt;
     outline: 0px solid transparent;
     transition: font-variation-settings 0.7s ease;
@@ -366,7 +366,7 @@ ul {
 }
 
 #tof-dis-editable:hover {
-  font-variation-settings: "slnt" 50, "wght" 50;
+  font-variation-settings: "slnt" 0, "wght" 50;
 }
 
 #MTsharp-editable {
@@ -407,12 +407,12 @@ ul {
 
 #eva-editable {
     font-family: 'eva', univers;
-    font-size: 12pt;
+    font-size: 100pt;
     margin-top: 0px;
-    -webkit-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+/*    -webkit-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
     -moz-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
     -ms-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
-    font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;*/
 
 }
 
@@ -435,6 +435,7 @@ ul {
     font-size: 100px;
     line-height: 75px;
     margin-top: 0px;
+    text-align: center;
     outline: 0px solid transparent;
     
 }
@@ -445,12 +446,14 @@ ul {
     line-height: 30px;
     margin-top: -60px;
     text-transform: lowercase;
+    text-align: center;
     outline: 0px solid transparent;
 }
 
 #MTcongoth-editable-land {
     font-family: 'MTcongoth', univers;
     font-size: 100px;
+    text-align: center;
     
     margin-top: -15px;
     outline: 0px solid transparent;
@@ -460,6 +463,7 @@ ul {
 #MTthreestripes-editable-land {
     font-family: 'MTthreestripes', univers;
     font-size: 100px;
+    text-align: center;
     
     margin-top: -80px;
     text-transform: lowercase;
@@ -467,4 +471,22 @@ ul {
 }
 
 
+#eva-editable-land {
+    font-family: 'eva', univers;
+    font-size: 100pt;
+    margin-top: 0px;
+    -webkit-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    -moz-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    -ms-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    text-transform: uppercase;
+    text-align: center;
 
+}
+
+#textecourant-editable-land {
+    font-family: 'textecourant', univers;
+    font-size: 100pt;
+    margin-top: -50px;
+    text-align: center;
+}
