@@ -95,7 +95,6 @@ a:active{
 	position: fixed;
 	padding-top: 5px;
     clear: both;
-
     height: 25px;
 }
 
@@ -430,15 +429,6 @@ ul {
     padding-top: 25px;
 }
   
-    
-    
-/*
-    #img1, #img2, #img3, #img4, #img5, #img6, #img7 {
-    position: fixed;
-    top: 40px;
-}
-    */
-  
    
 #columns {
 	bottom: 0;
@@ -484,7 +474,7 @@ ul {
 	width: 60%;
     height: 100%;
 	font-size: 10p;
-    padding-top: 40px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     overflow: scroll;
@@ -519,8 +509,7 @@ ul {
 
 @media only screen and (max-width: 640px) {
     /* For mobile phones: */
-  
-   
+
 #col-1 {
 	width: 95%;
 	padding-top: 40px;
@@ -552,12 +541,12 @@ ul {
 	width: 60%;
     height: 100%;
 	font-size: 10p;
-    padding-top: 40px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     overflow: scroll;
     display: none;
-    float: left;
+    float: right;
 }
     
 
