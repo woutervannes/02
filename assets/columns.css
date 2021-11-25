@@ -524,8 +524,8 @@ ul {
 #col-1 {
 	width: 95%;
 	padding-top: 40px;
-	height: 100%;
-    overflow: visible;
+	height: 110%;
+    overflow: scroll;
 }
    
 #col-2, #col-3, #col-4 {
@@ -574,7 +574,7 @@ ul {
     
 #MTsharp-editable-land {
     font-family: 'MTsharp', univers;
-    font-size: 50pt;
+
     line-height: 75px;
     margin-top: 0px;
     text-align: center;
@@ -584,9 +584,9 @@ ul {
 
 #MTconnomoregrids-editable-land {
     font-family: 'MTconnomoregrids', univers;
-    font-size: 50pt;
+
     line-height: 30px;
-    margin-top: -60px;
+    margin-top: -30px;
     text-transform: lowercase;
     text-align: center;
     outline: 0px solid transparent;
@@ -594,20 +594,20 @@ ul {
 
 #MTcongoth-editable-land {
     font-family: 'MTcongoth', univers;
-    font-size: 50pt;
+
     text-align: center;
     
-    margin-top: -40px;
+    margin-top: -10px;
     outline: 0px solid transparent;
     
 }
 
 #MTthreestripes-editable-land {
     font-family: 'MTthreestripes', univers;
-    font-size: 50pt;
+
     text-align: center;
     
-    margin-top: -70px;
+    margin-top: -30px;
     text-transform: lowercase;
     outline: 0px solid transparent;
 }
@@ -629,7 +629,7 @@ ul {
 #textecourant-editable-land {
     font-family: 'textecourant', univers;
 
-    margin-top: -60px;
+    margin-top: -30px;
     text-align: center;
 }
 }
