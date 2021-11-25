@@ -41,7 +41,7 @@
                        
 <!--                        <img src="assets/images/_molotype/001-4.gif" ></br>-->
                         
-                        <img src="assets/images/_oblique/oblique_var_02.gif" >
+                        <img src="assets/images/_oblique/oblique_var_04.gif" >
                         
                         <p id="MTsharp-editable-land" contenteditable="true" spellcheck="false">
                         
@@ -51,13 +51,18 @@
                         
                        <p id="textecourant-editable-land" contenteditable="true" spellcheck="false">
                             
-                            Hello World
+                            Kakkeneus
                         </p>
 
                         
                         <p id="MTthreestripes-editable-land" contenteditable="true" spellcheck="false">
                             
                             insert text 
+                        </p> 
+                        
+                        <p id="MTcongoth-editable-land" contenteditable="true" spellcheck="false">
+                            
+                            Stoeptegel 
                         </p> 
                         
 
@@ -501,7 +506,7 @@ Dacht de werkman terwijl hij de straat verder openbrak.
                     </div>
                     </div>
 					
-                    <div id="wineanddine">
+				    <div id="wineanddine">
                         <img src="assets/images/_67403967_2790576927638694_2727459581927096320_o.jpg">
                     </div>
 
@@ -625,7 +630,7 @@ Dacht de werkman terwijl hij de straat verder openbrak.
                                 from High on Type at FIG in Liege</br>&nbsp;&nbsp;&nbsp;&nbsp; 
                                 — 2018
                             </li></br>
-                            <li>Stonecutting at Open Day TypeMedi</br>&nbsp;&nbsp;&nbsp;&nbsp; a 
+                            <li>Stonecutting at Open Day TypeMedia </br>&nbsp;&nbsp;&nbsp;&nbsp; 
                                 KABK in The Hague</br>&nbsp;&nbsp;&nbsp;&nbsp; 
                                 — 2017
                             </li></br>
@@ -662,9 +667,10 @@ Dacht de werkman terwijl hij de straat verder openbrak.
 
 						<!-- Column five end -->
 					</div>
+
 					</div>
 					
-					
+
 				
 
 					<!--<div id="header" onclick="document.getElementById('img4').style.display = 'none'; document.getElementById('img1').style.display = 'none'; document.getElementById('img2').style.display = 'none'; document.getElementById('img3').style.display = 'none'; document.getElementById('img5').style.display = 'none';  document.getElementById('img6').style.display = 'none';  document.getElementById('img7').style.display = 'none'; document.getElementById('clear').style.display = 'inline'"></div>
@@ -688,7 +694,7 @@ Dacht de werkman terwijl hij de straat verder openbrak.
 							<a href="#col-4" id="nav4def" onclick="document.getElementById('col-1').style.display = 'none'; document.getElementById('col-3').style.display = 'none'; document.getElementById('col-2').style.display = 'none'; document.getElementById('wineanddine').style.display = 'none';" id="nav4def">other</a> 
 						</div>
 						<div id="nav5" onclick="myFunctionnav5();">
-							<a href="#col-5" id="nav5def" onclick="document.getElementById('col-1').style.display = 'none'; document.getElementById('col-2').style.display = 'none'; document.getElementById('col-3').style.display = 'none'; document.getElementById('col-4').style.display = 'none'; document.getElementById('wineanddine').style.display = 'inline'">info</a>
+							<a href="#col-5" id="nav5def" onclick="document.getElementById('col-1').style.display = 'none'; document.getElementById('col-2').style.display = 'none'; document.getElementById('col-3').style.display = 'none'; document.getElementById('col-4').style.display = 'none'; document.getElementById('col-5').style.display = 'inline'; document.getElementById('wineanddine').style.display = 'inline'">info</a>
 						</div> 
 					</div>
 					
@@ -719,15 +725,17 @@ Dacht de werkman terwijl hij de straat verder openbrak.
 					
 					<script>
 					var mq = window.matchMedia( "(min-width: 950px)" );
+                    var mq2 = window.matchMedia( "(max-width: 950px)" );
 					
 					
 					function myFunctionnav1() {
-						    if (mq.matches){
+				        if (mq.matches){
 						    document.getElementById("col-1").style.display = (document.getElementById("col-1").style.visibility == 'block') ? 'none' : 'block';
 						    document.getElementById("nav1def").href="#container";
 						    }
-						    else{
-							    document.getElementById("col-1").style.visibility = 'block';
+						  else if (mq2.matches) {
+							 document.getElementById("col-1").style.display = (document.getElementById("col-1").style.visibility == 'block') ? 'none' : 'block';
+						    document.getElementById("nav1def").href="#container";
 						    }  
 						}
 						
@@ -736,8 +744,9 @@ Dacht de werkman terwijl hij de straat verder openbrak.
 						    document.getElementById("col-2").style.display = (document.getElementById("col-2").style.visibility == 'block') ? 'none' : 'block';
 						    document.getElementById("nav2def").href="#container";
 						    }
-						    else{
-							    document.getElementById("col-2").style.visibility = 'block';
+						    else if (mq2.matches) {
+							 document.getElementById("col-2").style.display = (document.getElementById("col-2").style.visibility == 'block') ? 'none' : 'block';
+						    document.getElementById("nav2def").href="#container";
 						    } 
 						    
 						}
@@ -747,8 +756,9 @@ Dacht de werkman terwijl hij de straat verder openbrak.
 						    document.getElementById("col-3").style.display = (document.getElementById("col-3").style.visibility == 'block') ? 'none' : 'block';
 						    document.getElementById("nav3def").href="#container";
 						    }
-						    else{
-							    document.getElementById("col-3").style.visibility = 'block';
+						    else if (mq2.matches) {
+							 document.getElementById("col-3").style.display = (document.getElementById("col-3").style.visibility == 'block') ? 'none' : 'block';
+						    document.getElementById("nav3def").href="#container";
 						    }  
 						}
 						
@@ -756,16 +766,22 @@ Dacht de werkman terwijl hij de straat verder openbrak.
 							if (mq.matches){
 						    document.getElementById("col-4").style.display = (document.getElementById("col-4").style.visibility == 'block') ? 'none' : 'block';
 						    document.getElementById("nav4def").href="#container";
-						    }
-						    else{
-							    document.getElementById("col-4").style.visibility = 'block';
-						    }   
+                            }
+						    else if (mq2.matches) {
+							 document.getElementById("col-4").style.display = (document.getElementById("col-4").style.visibility == 'block') ? 'none' : 'block';
+						    document.getElementById("nav4def").href="#container";
+						    } 
 						}
 						
 						function myFunctionnav5() {
 							if (mq.matches){
+						    document.getElementById("col-5").style.display = (document.getElementById("col-5").style.visibility == 'block') ? 'none' : 'block';
 						    document.getElementById("nav5def").href="#container"; 
 						    }
+                            else if (mq2.matches) {
+							 document.getElementById("col-5").style.display = (document.getElementById("col-5").style.visibility == 'block') ? 'none' : 'block';
+						    document.getElementById("nav5def").href="#container";
+						    } 
 						}
                 
 					</script>

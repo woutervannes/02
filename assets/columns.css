@@ -87,20 +87,20 @@ a:active{
 	width: 200px;
 	height: 0px;
 	margin-left: calc(50% - (200px / 2));
-	background: url(images/6tag-060516-174733-1920x1080-52-1920x1080-78.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	
+    clear: both;
 }
 
 #nav {
-	width:100%;
-	position: absolute;
-	top: 10px;
+	width: 100%;
+	position: fixed;
+	padding-top: 5px;
+    clear: both;
+
+    height: 25px;
 }
 
-#nav1, #nav2, #nav3, #nav4, #nav5{
+
+#nav1, #nav2, #nav3, #nav4, #nav5 {
 	width: calc((100% / 5) - 20px);
 	float: left;
 	padding: 10px;
@@ -123,7 +123,7 @@ a:active{
 	height: 100%;
 	float: left;
 	position: absolute;
-	
+    overflow: hidden;
 }
 
 /*#col-1{
@@ -135,26 +135,31 @@ a:active{
 	padding-top: 0px;
 }*/
 
-#col-5{
-	width: calc((100% / 5) - 20px);
-	height: calc(100% - 20px);
-	float: right;
-	overflow: scroll;
-	padding: 10px;
-	padding-top: 0px;
+
+
+#col-1 {
+    display: inline;
+    width: calc(((100% / 5) * 4) - 20px);
+	height: 100%;
+	float: left;
+    overflow: scroll;
+	padding: 0px 10px 0px 10px;
 }
 
-#col-1, #col-2, #col-3, #col-4, #wineanddine{
+#col-2, #col-3, #col-4, #wineanddine {
 	display: none;
 	width: calc(((100% / 5) * 4) - 20px);
-	height: calc(100% - 10px);
+	height: 100%;
 	float: left;
-	overflow: hidden;
-	padding: 10px;
+    overflow: hidden;
+	padding: 0px 10px 0px 10px;
 }
 
-#col-1{
-    display: inline;
+#col-5{
+	width: calc((100% / 5) - 20px);
+	height: 100%;
+	float: right;
+	padding: 0px 10px 0px 10px;
     overflow: scroll;
 }
 
@@ -237,95 +242,6 @@ h2:after{
 	display: none;
 }
 
-@media only screen and (max-width: 950px) {
-    /* For mobile phones: */
-	
-#header{
-    position: absolute;
-    top: 0;
-    clear: both;
-    top: 150px;
-}
-    
-#nav {
-    position: fixed;
-    clear: both;
-    background: white;
-    width: 100%;
-    top: 0px;
-}
-  
-    
-    
-/*
-    #img1, #img2, #img3, #img4, #img5, #img6, #img7 {
-    position: fixed;
-    top: 40px;
-}
-    */
-  
-   
-#columns {
-	bottom: 0;
-	height: 75%;
-	float: left;
-	position: absolute;
-	
-}
-
-#col-1 {
-	width: 80%;
-	margin-left: 7%;
-	padding-top: 200px;
-	height: intrinsic;
-    font-size: 10p;
-}
-
-   
-#col-2, #col-3, #col-4, #col-5, #wineanddine {
-	width: 80%;
-	height: 400px;
-	margin-left: 7%;
-	font-size: 10p;
-}
-
-#col-2, #col-3, #col-4{
-	display: inline;
-}
-
-
-}
-
-
-@media only screen and (max-width: 640px) {
-    /* For mobile phones: */
-	
-
-  
-   
-#col-1 {
-	width: 80%;
-	margin-left: 7%;
-	padding-top: 0px;
-	height: intrinsic;
-}
-   
-#col-2, #col-3, #col-4, #col-5 {
-	width: 80%;
-	margin-left: 7%;
-	height: intrinsic;
-    display: none;
-}
-
-/*#col-2, #col-3, #col-4{
-	visibility: visible;
-}*/
-
-#img1, #img2, #img3, #img4, #img5, #img6, #img7 {
-    position: fixed;
-    top: 40px;
-}
-}
     
 ul {
     list-style-type:circle;
@@ -335,28 +251,28 @@ ul {
 #tof-reg-editable1 {
     font-family: 'tof-reg', univers;
     font-variation-settings: "slnt" 50, "wght" 0;
-    font-size: 60pt;
+    font-size: 8vw;
     transition: font-variation-settings 0.7s ease;
     text-transform: lowercase;
 }
 
-#tof-reg-editable1:hover {
+#tof-reg-editable1:hover, #tof-reg-editable1:active {
   font-variation-settings: "slnt" 0, "wght" 50;
 }
 
 #tof-reg-editable2 {
     font-family: 'tof-reg', univers;
     font-variation-settings: "slnt" 0, "wght" 25;
-    font-size: 13pt;
+    font-size: 1.2vw;
     transition: font-variation-settings 0.7s ease;
     text-transform: lowercase;
 }
 
-#tof-reg-editable2:hover {
+#tof-reg-editable2:hover, #tof-reg-editable2:active  {
   font-variation-settings: "slnt" 50, "wght" 0;
 }
 
-#tof-dis-editable {
+/*#tof-dis-editable {
     font-family: 'tof-reg', univers;
     font-variation-settings: "slnt" 50, "wght" 0;
     font-size: 60pt;
@@ -367,7 +283,7 @@ ul {
 
 #tof-dis-editable:hover {
   font-variation-settings: "slnt" 0, "wght" 50;
-}
+}*/
 
 #MTsharp-editable {
     font-family: 'MTsharp', univers;
@@ -418,23 +334,26 @@ ul {
 
 #textecourant-editable {
     font-family: 'textecourant', univers;
-    font-size: 100pt;
-    margin-top: 0px;
+    line-height: 80%;
+    font-size: 10vw;
+    margin-top: 40px;
+    color: red;
 }
 
 #textecourant-editable-small {
     font-family: 'textecourant', univers;
-    font-size: 24pt;
-    margin-top: 0px;
+    font-size: 2.3vw;
+    line-height: 100%;
+    margin-top: -30px;
 }
 
 /*landingpage*/
 
 #MTsharp-editable-land {
     font-family: 'MTsharp', univers;
-    font-size: 100px;
+    font-size: 10vw;
     line-height: 75px;
-    margin-top: 0px;
+    margin-top: 20px;
     text-align: center;
     outline: 0px solid transparent;
     
@@ -442,7 +361,7 @@ ul {
 
 #MTconnomoregrids-editable-land {
     font-family: 'MTconnomoregrids', univers;
-    font-size: 100px;
+    font-size: 10vw;
     line-height: 30px;
     margin-top: -60px;
     text-transform: lowercase;
@@ -452,20 +371,20 @@ ul {
 
 #MTcongoth-editable-land {
     font-family: 'MTcongoth', univers;
-    font-size: 100px;
+    font-size: 10vw;
     text-align: center;
     
-    margin-top: -15px;
+    margin-top: -70px;
     outline: 0px solid transparent;
     
 }
 
 #MTthreestripes-editable-land {
     font-family: 'MTthreestripes', univers;
-    font-size: 100px;
+    font-size: 10vw;
     text-align: center;
     
-    margin-top: -80px;
+    margin-top: -100px;
     text-transform: lowercase;
     outline: 0px solid transparent;
 }
@@ -473,7 +392,7 @@ ul {
 
 #eva-editable-land {
     font-family: 'eva', univers;
-    font-size: 100pt;
+    font-size: 10vw;
     margin-top: 0px;
     -webkit-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
     -moz-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
@@ -486,7 +405,231 @@ ul {
 
 #textecourant-editable-land {
     font-family: 'textecourant', univers;
-    font-size: 100pt;
-    margin-top: -50px;
+    font-size: 10vw;
+    margin-top: -60px;
     text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+    /* For mobile phones: */
+	
+#header{
+    position: absolute;
+    top: 0;
+    clear: both;
+    top: 150px;
+}
+    
+#nav {
+    position: fixed;
+    clear: both;
+    width: 100%;
+    padding-top: 25px;
+}
+  
+    
+    
+/*
+    #img1, #img2, #img3, #img4, #img5, #img6, #img7 {
+    position: fixed;
+    top: 40px;
+}
+    */
+  
+   
+#columns {
+	bottom: 0;
+	height: calt(100% - 20px);
+    width: 100%;
+	float: left;
+	position: absolute;
+	overflow: hidden;
+}
+
+#col-1 {
+	width: 95%;
+    height: 100%;
+	padding-top: 40px;
+    height: 100%;
+    font-size: 10p;
+    overflow: scroll;
+}
+
+   
+#col-2, #col-3, #col-4 {
+	width: 95%;
+    height: 100%;
+	font-size: 10p;
+    padding-top: 40px;
+    overflow: visible;
+    display: none;
+}
+    
+#wineanddine {
+	width: calc(((100% / 5) * 2) - 40px);
+    height: auto;
+	font-size: 10p;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+    display: none;
+}
+        
+    
+#col-5 {
+	width: 60%;
+    height: 100%;
+	font-size: 10p;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+    display: none;
+}
+
+.text {
+    width: auto;
+}
+
+    
+#tof-reg-editable1 {
+    font-size: 10vw;
+}    
+    
+#tof-reg-editable2 {
+    font-size: 2vw;
+}    
+    
+#textecourant-editable {
+    font-size: 12vw;
+    margin-top: 10px;
+} 
+    
+#textecourant-editable-small {
+    font-size: 3vw;
+}
+    
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    /* For mobile phones: */
+  
+   
+#col-1 {
+	width: 95%;
+	padding-top: 40px;
+	height: 100%;
+    overflow: visible;
+}
+   
+#col-2, #col-3, #col-4 {
+	width: 90%;
+    padding-top: 40px;
+    height: 100%;    
+    display: none;
+    overflow: visible;
+}
+
+#wineanddine {
+	width: calc(((100% / 5) * 2) - 40px);
+    height: auto;
+	font-size: 10p;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+    display: none;
+}
+        
+    
+#col-5 {
+	width: 60%;
+    height: 100%;
+	font-size: 10p;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: scroll;
+    display: none;
+    float: left;
+}
+    
+
+    
+.text{
+    width: auto;
+}
+    
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7 {
+    position: fixed;
+    top: 40px;
+}
+    
+#MTsharp-editable-land {
+    font-family: 'MTsharp', univers;
+    font-size: 50pt;
+    line-height: 75px;
+    margin-top: 0px;
+    text-align: center;
+    outline: 0px solid transparent;
+    
+}
+
+#MTconnomoregrids-editable-land {
+    font-family: 'MTconnomoregrids', univers;
+    font-size: 50pt;
+    line-height: 30px;
+    margin-top: -60px;
+    text-transform: lowercase;
+    text-align: center;
+    outline: 0px solid transparent;
+}
+
+#MTcongoth-editable-land {
+    font-family: 'MTcongoth', univers;
+    font-size: 50pt;
+    text-align: center;
+    
+    margin-top: -40px;
+    outline: 0px solid transparent;
+    
+}
+
+#MTthreestripes-editable-land {
+    font-family: 'MTthreestripes', univers;
+    font-size: 50pt;
+    text-align: center;
+    
+    margin-top: -70px;
+    text-transform: lowercase;
+    outline: 0px solid transparent;
+}
+
+
+#eva-editable-land {
+    font-family: 'eva', univers;
+
+    margin-top: 0px;
+    -webkit-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    -moz-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    -ms-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+#textecourant-editable-land {
+    font-family: 'textecourant', univers;
+
+    margin-top: -60px;
+    text-align: center;
+}
 }
