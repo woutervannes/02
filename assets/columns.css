@@ -257,6 +257,7 @@ ul {
 
 #tof-reg-editable1:hover, #tof-reg-editable1:active {
   font-variation-settings: "slnt" 0, "wght" 50;
+  outline: none;
 }
 
 #tof-reg-editable2 {
@@ -269,6 +270,7 @@ ul {
 
 #tof-reg-editable2:hover, #tof-reg-editable2:active  {
   font-variation-settings: "slnt" 50, "wght" 0;
+  outline: none;
 }
 
 /*#tof-dis-editable {
