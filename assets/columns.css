@@ -338,7 +338,7 @@ ul {
     line-height: 80%;
     font-size: 10vw;
     margin-top: 40px;
-    color: red;
+    color: #ED1C25;
 }
 
 #textecourant-editable-small {
@@ -504,6 +504,53 @@ ul {
 #textecourant-editable-small {
     font-size: 3vw;
 }
+
+#MTsharp-editable-land {
+    font-family: 'MTsharp', univers;
+    font-size: 20vw;
+    line-height: 75px;
+    margin-top: 0px;
+    text-align: center;
+    outline: 0px solid transparent;
+    
+}
+
+#MTconnomoregrids-editable-land {
+    font-family: 'MTconnomoregrids', univers;
+    font-size: 20vw;
+    line-height: 30px;
+    margin-top: -30px;
+    text-transform: lowercase;
+    text-align: center;
+    outline: 0px solid transparent;
+}
+
+#MTcongoth-editable-land {
+    font-family: 'MTcongoth', univers;
+    font-size: 20vw;
+    text-align: center;
+    
+    margin-top: -10px;
+    outline: 0px solid transparent;
+    
+}
+
+#MTthreestripes-editable-land {
+    font-family: 'MTthreestripes', univers;
+    font-size: 20vw;
+    text-align: center;
+    
+    margin-top: -30px;
+    text-transform: lowercase;
+    outline: 0px solid transparent;
+}
+
+#textecourant-editable-land {
+    font-family: 'textecourant', univers;
+    font-size: 20vw;
+    margin-top: -30px;
+    text-align: center;
+}
     
 }
 
@@ -520,11 +567,11 @@ ul {
 }
    
 #col-2, #col-3, #col-4 {
-	width: 90%;
+	width: 200%;
     padding-top: 40px;
     height: 100%;    
     display: none;
-    overflow: visible;
+    overflow: scroll;
 }
 
 #wineanddine {
@@ -565,7 +612,7 @@ ul {
     
 #MTsharp-editable-land {
     font-family: 'MTsharp', univers;
-
+    font-size: 20vw;
     line-height: 75px;
     margin-top: 0px;
     text-align: center;
@@ -575,7 +622,7 @@ ul {
 
 #MTconnomoregrids-editable-land {
     font-family: 'MTconnomoregrids', univers;
-
+    font-size: 20vw;
     line-height: 30px;
     margin-top: -30px;
     text-transform: lowercase;
@@ -585,7 +632,7 @@ ul {
 
 #MTcongoth-editable-land {
     font-family: 'MTcongoth', univers;
-
+    font-size: 20vw;
     text-align: center;
     
     margin-top: -10px;
@@ -595,7 +642,7 @@ ul {
 
 #MTthreestripes-editable-land {
     font-family: 'MTthreestripes', univers;
-
+    font-size: 20vw;
     text-align: center;
     
     margin-top: -30px;
@@ -619,8 +666,15 @@ ul {
 
 #textecourant-editable-land {
     font-family: 'textecourant', univers;
-
+    font-size: 20vw;
     margin-top: -30px;
     text-align: center;
+}
+
+.landimg {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 }
