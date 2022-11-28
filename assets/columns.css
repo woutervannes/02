@@ -148,9 +148,9 @@ a:active{
 #col-2, #col-3, #col-4, #wineanddine {
 	display: none;
 	width: calc(((100% / 5) * 4) - 20px);
-	height: 100%;
+	height: 98%;
 	float: left;
-    overflow: hidden;
+    overflow: scroll;
 	padding: 0px 10px 0px 10px;
 }
 
@@ -240,7 +240,6 @@ h2:after{
 #graphiccontent1, #typecontent1, #othercontent1 {
 	display: none;
 }
-
     
 ul {
     list-style-type:circle;
@@ -411,7 +410,25 @@ ul {
     text-align: center;
 }
 
+.evaimg{
+    width: 70%;
+}
 
+.dayimg{
+    width: 40%;
+}
+
+.woordbadpubimg{
+    width: 32%;
+}
+
+.iwzlogo{
+    width: 49%;
+}
+
+.woordbadimg{
+    width: 75%;
+}
 
 
 @media only screen and (max-width: 950px) {
@@ -505,6 +522,8 @@ ul {
     font-size: 3vw;
 }
 
+
+
 #MTsharp-editable-land {
     font-family: 'MTsharp', univers;
     font-size: 20vw;
@@ -562,16 +581,29 @@ ul {
 #col-1 {
 	width: 95%;
 	padding-top: 40px;
-	height: 110%;
-    overflow: scroll;
+    overflow: auto;
 }
    
 #col-2, #col-3, #col-4 {
-	width: 200%;
+	width: 90%;
     padding-top: 40px;
-    height: 100%;    
+    height: 98%;    
     display: none;
     overflow: scroll;
+}
+
+.list {
+	width: calc((100% / 3) - 40px);
+	height: inherit;
+	float: left;
+	overflow: auto;
+	padding: 10px;
+	padding-top: 0px;
+    white-space: normal;
+}
+
+.evaimg {
+    width: 100%;
 }
 
 #wineanddine {
@@ -598,7 +630,47 @@ ul {
     float: right;
 }
     
+#MTsharp-editable {
+    font-family: 'MTsharp', univers;
+    font-size: 10vw;
+    line-height: 7vw;
+    margin-top: 0px;
+    outline: 0px solid transparent;
+    
+}
 
+#MTconnomoregrids-editable {
+    font-family: 'MTconnomoregrids', univers;
+    font-size: 10vw;
+    line-height: 4vw;
+    margin-top: -20px;
+    text-transform: lowercase;
+    outline: 0px solid transparent;
+}
+
+#MTcongoth-editable {
+    font-family: 'MTcongoth', univers;
+    font-size: 10vw; 
+    margin-top: 7vw;
+    outline: 0px solid transparent;
+    
+}
+
+#MTthreestripes-editable {
+    font-family: 'MTthreestripes', univers;
+    font-size: 10vw;
+    margin-top: 0px;
+    text-transform: lowercase;
+    outline: 0px solid transparent;
+}
+
+#tof-reg-editable1 {
+    font-size: 10vw;
+}    
+    
+#tof-reg-editable2 {
+    font-size: 2.8vw;
+}    
     
 .text{
     width: auto;
@@ -650,20 +722,6 @@ ul {
     outline: 0px solid transparent;
 }
 
-
-#eva-editable-land {
-    font-family: 'eva', univers;
-
-    margin-top: 0px;
-    -webkit-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
-    -moz-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
-    -ms-font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
-    font-feature-settings: "liga" 1, "ss01" 1, "ordn" 1, "init" 1, "isol" 1, "medi" 1, "fina" 1, "calt" 1, "onum" 1, "sups" 1;
-    text-transform: uppercase;
-    text-align: center;
-
-}
-
 #textecourant-editable-land {
     font-family: 'textecourant', univers;
     font-size: 20vw;
@@ -677,4 +735,20 @@ ul {
     margin-right: auto;
     margin-left: auto;
 }
+.woordbadpubimg{
+    width: 70%;
+}
+
+.dayimg{
+    width: 47%;
+}
+
+.iwzlogo{
+    width: 98%;
+}
+
+.woordbadimg{
+    width: 98%;
+}
+
 }
