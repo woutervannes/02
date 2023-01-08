@@ -107,6 +107,9 @@ a:active{
 	text-align: center;
 }
 
+#logo {
+    width: 170px;
+}
 
 #container {
 	width:100%;
@@ -221,7 +224,7 @@ h2:after{
 	float: left;
 	overflow: scroll;
 	padding: 10px;
-	padding-top: 0px;
+	padding-top: 90px;
 }
 
 .content {
@@ -446,8 +449,32 @@ ul {
     clear: both;
     width: 100%;
     padding-top: 25px;
+    display: block;
+}
+
+#nav1 {
+	width: 100%;
+	display: block;
+	padding: 10px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+#nav2, #nav3, #nav4, #nav5 {
+	width: calc((100% / 4) - 20px);
+	float: left;
+	padding: 10px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+#logo {
+    width: 60vw;
 }
   
+.list {
+	padding-top: 0px;
+}
    
 #columns {
 	bottom: 0;
@@ -461,7 +488,7 @@ ul {
 #col-1 {
 	width: 95%;
     height: 100%;
-	padding-top: 40px;
+	padding-top: 45vw;
     height: 100%;
     font-size: 10p;
     overflow: scroll;
@@ -471,8 +498,8 @@ ul {
 #col-2, #col-3, #col-4 {
 	width: 95%;
     height: 100%;
+    padding-top: 45vw;
 	font-size: 10p;
-    padding-top: 40px;
     overflow: visible;
     display: none;
 }
@@ -481,7 +508,7 @@ ul {
 	width: calc(((100% / 5) * 2) - 40px);
     height: auto;
 	font-size: 10p;
-    padding-top: 40px;
+    padding-top: 45vw;
     margin-left: auto;
     margin-right: auto;
     overflow: visible;
@@ -493,7 +520,7 @@ ul {
 	width: 60%;
     height: 100%;
 	font-size: 10p;
-    margin-top: 40px;
+    margin-top: 45vw;
     margin-left: auto;
     margin-right: auto;
     overflow: scroll;
@@ -578,15 +605,20 @@ ul {
 @media only screen and (max-width: 640px) {
     /* For mobile phones: */
 
+#logo {
+    width: 90vw;
+    display: block;
+}
+
 #col-1 {
 	width: 95%;
-	padding-top: 40px;
+	padding-top: 65vw;
     overflow: auto;
 }
    
 #col-2, #col-3, #col-4 {
 	width: 90%;
-    padding-top: 40px;
+    padding-top: 65vw;
     height: 98%;    
     display: none;
     overflow: scroll;
@@ -610,7 +642,7 @@ ul {
 	width: calc(((100% / 5) * 2) - 40px);
     height: auto;
 	font-size: 10p;
-    padding-top: 40px;
+    padding-top: 65vw;
     margin-left: auto;
     margin-right: auto;
     overflow: visible;
@@ -622,7 +654,7 @@ ul {
 	width: 60%;
     height: 100%;
 	font-size: 10p;
-    margin-top: 40px;
+    margin-top: 65vw;
     margin-left: auto;
     margin-right: auto;
     overflow: scroll;
